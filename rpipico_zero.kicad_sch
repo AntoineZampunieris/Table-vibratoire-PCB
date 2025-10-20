@@ -6,6 +6,48 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 24.13 60.96)
+		(size 45.466 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "21cf4fcc-6cdd-4f73-a892-c2bcaabeb189")
+		(property "Sheetname" "Raspberry Pi automate"
+			(at 24.13 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rpizero.kicad_sch"
+			(at 24.13 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "rpipico_zero"
+				(path "/867cba6c-c4f7-4f0e-b11e-bdca0b806b47"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 24.638 79.502)
 		(size 45.72 10.16)
 		(exclude_from_sim no)
@@ -48,49 +90,7 @@
 		)
 	)
 	(sheet
-		(at 24.892 97.282)
-		(size 45.466 10.16)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "6c55ed2c-e684-4cfe-900e-3bcf8e1882ee")
-		(property "Sheetname" "Raspberry Pi Zero"
-			(at 24.892 96.5704 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "rpizero.kicad_sch"
-			(at 24.892 108.0266 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "rpipico_zero"
-				(path "/867cba6c-c4f7-4f0e-b11e-bdca0b806b47"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 25.146 180.594)
+		(at 24.384 163.068)
 		(size 45.466 9.144)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -106,7 +106,7 @@
 		)
 		(uuid "70e033c0-8ac2-4c88-93e2-91c7794734ad")
 		(property "Sheetname" "Panneau LED"
-			(at 25.146 179.8824 0)
+			(at 24.384 162.3564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +115,7 @@
 			)
 		)
 		(property "Sheetfile" "LED.kicad_sch"
-			(at 25.146 190.3226 0)
+			(at 24.384 172.7966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -132,7 +132,7 @@
 		)
 	)
 	(sheet
-		(at 25.146 165.1)
+		(at 24.384 147.574)
 		(size 45.466 9.652)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -148,7 +148,7 @@
 		)
 		(uuid "b2008bbf-3ebe-4599-9d03-96d93f82f9ab")
 		(property "Sheetname" "Puissance"
-			(at 25.146 164.3884 0)
+			(at 24.384 146.8624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -157,7 +157,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 25.146 175.3366 0)
+			(at 24.384 157.8106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174,7 +174,7 @@
 		)
 	)
 	(sheet
-		(at 24.892 114.046)
+		(at 24.13 96.52)
 		(size 45.466 9.906)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -190,7 +190,7 @@
 		)
 		(uuid "bed4b884-9118-451a-8502-e729c43c17d9")
 		(property "Sheetname" "Capteurs de courant"
-			(at 24.892 113.3344 0)
+			(at 24.13 95.8084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -199,7 +199,7 @@
 			)
 		)
 		(property "Sheetfile" "Capteur_courant.kicad_sch"
-			(at 24.892 124.5366 0)
+			(at 24.13 107.0106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -258,49 +258,7 @@
 		)
 	)
 	(sheet
-		(at 24.384 61.214)
-		(size 45.72 10.16)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "cbd67a40-d78e-4495-a65a-e72fe9a3eb5e")
-		(property "Sheetname" "Capteurs magnétiques AS5048a"
-			(at 24.384 60.5024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "as5048a.kicad_sch"
-			(at 24.384 71.9586 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "rpipico_zero"
-				(path "/867cba6c-c4f7-4f0e-b11e-bdca0b806b47"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 25.146 148.59)
+		(at 24.384 131.064)
 		(size 45.466 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -316,7 +274,7 @@
 		)
 		(uuid "df776258-c8a1-4d18-9c2a-6a35e7fc0373")
 		(property "Sheetname" "Servo-moteur"
-			(at 25.146 147.8784 0)
+			(at 24.384 130.3524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -325,7 +283,7 @@
 			)
 		)
 		(property "Sheetfile" "servo.kicad_sch"
-			(at 25.146 159.3346 0)
+			(at 24.384 141.8086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -357,7 +315,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "e74e113b-8751-4236-9557-ed90b6116764")
-		(property "Sheetname" "Raspberry Pi Pico"
+		(property "Sheetname" "arduino"
 			(at 24.13 22.1484 0)
 			(effects
 				(font
@@ -384,7 +342,7 @@
 		)
 	)
 	(sheet
-		(at 25.146 131.064)
+		(at 24.384 113.538)
 		(size 45.212 10.414)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -400,7 +358,7 @@
 		)
 		(uuid "fa28dd19-20d3-43cf-b419-cc3e73761883")
 		(property "Sheetname" "Accéléromètre"
-			(at 25.146 130.3524 0)
+			(at 24.384 112.8264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -409,7 +367,7 @@
 			)
 		)
 		(property "Sheetfile" "accelerometre.kicad_sch"
-			(at 25.146 142.0626 0)
+			(at 24.384 124.5366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
